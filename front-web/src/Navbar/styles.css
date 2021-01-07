@@ -1,0 +1,29 @@
+.main-navbar{ 
+   height: 70px;
+   left: 0px;
+   right: 0px;
+   top: 0px;
+   display: flex;
+   padding-left:  45px;
+   align-items: center;/*somente pode ser usado junto com o display flex*/
+   background-color: #DA5C5C;
+
+}
+.logo-text{
+    position: absolute;
+    width: 133px;
+    height: 33px;
+    left: 104px;
+    top: 17px;
+    margin-left:15;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    
+    /* identical to box height */
+    letter-spacing: -0.015em;
+    
+    color: #FFFFFF;
+}

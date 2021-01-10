@@ -12,3 +12,11 @@ export type OrderLocationData = {
     address: string;
 
 }
+//dica para alterar um nome em todas as ocorrencias  => botão direito => rename symbol
+type ProductId = {
+    id: number;
+}
+
+export type OrderPayLoad = {
+    products : ProductId[];
+} & OrderLocationData; //concatena orderpayload com orderlocationdata então não há necessidade de recriar/duplicar 
